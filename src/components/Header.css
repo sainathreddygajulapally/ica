@@ -1,0 +1,38 @@
+/* Header styling */
+.app-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff; /* White background for the header */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Optional shadow for header */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Container for the logo and title */
+.logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Logo styling */
+.app-logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; /* Make logo round */
+    margin-right: 10px;
+}
+
+/* Title styling */
+.app-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4f52af; /* Matching your app color */
+    margin: 0;
+}
+
+

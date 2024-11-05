@@ -1,0 +1,140 @@
+.tax-comfort-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e9ecf7;
+}
+
+.tax-comfort-container {
+    margin-top: 100px;
+    text-align: center;
+    max-width: 800px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4f52af;
+}
+
+p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Comfort options with hover and selection effect */
+.comfort-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.option-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
+    margin: 10px;
+    position: relative;
+}
+
+.option-card:hover {
+    transform: scale(1.1);
+    background-color: #e0f7fa;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: #4f52af;
+}
+
+/* Loading spinner for better UX */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ddd;
+    border-top: 4px solid #4f52af;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Forms list styling with fade-in effect */
+.forms-list {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.forms-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.forms-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background: #f4f4f4;
+    border-radius: 5px;
+    animation: fadeInUp 0.4s ease forwards;
+    transform: translateY(10px);
+    opacity: 0;
+}
+
+@keyframes fadeInUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+/* Back button styling */
+.back-button {
+    background-color: #4f52af;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #3c409e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .tax-comfort-container {
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .option-card {
+        width: 120px;
+        padding: 15px;
+    }
+}

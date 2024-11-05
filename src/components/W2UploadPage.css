@@ -1,0 +1,132 @@
+/* General layout and page background */
+.upload-page {
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Enables absolute positioning for centering */
+    background-color: #f0f4ff; /* Matches Tax Comfort page background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centered container styling */
+.upload-container {
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Heading styling for consistency */
+.upload-container h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #4f52af; /* Matches heading color in Tax Comfort page */
+}
+
+/* Paragraph text styling */
+.upload-container p {
+    margin-bottom: 20px;
+    color: #666; /* Consistent text color */
+}
+
+/* File input styling */
+.upload-container input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.upload-container input[type="file"]:focus {
+    border-color: #4f52af; /* Matches primary color */
+    outline: none;
+}
+
+/* Upload button styling */
+.upload-container button {
+    background-color: #4f52af;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.upload-container button:hover {
+    background-color: #3c409e; /* Consistent hover color */
+    transform: scale(1.05);
+}
+
+/* Preview container styling */
+.upload-container pre {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: left;
+    max-height: 400px;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading spinner for consistency */
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #ddd;
+    border-top: 4px solid #4f52af;
+    border-radius: 50%;
+    margin: 20px auto;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Back button styling similar to Tax Comfort page */
+.back-button {
+    background-color: #4f52af;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #3c409e;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .upload-container {
+        padding: 20px;
+    }
+
+    .upload-container h2 {
+        font-size: 24px;
+    }
+}

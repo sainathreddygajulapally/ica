@@ -1,0 +1,32 @@
+.fill-1040-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.fill-1040-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.fill-1040-container h2 {
+    color: #563d7c;
+}
+
+.fill-1040-container p {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.fill-1040-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #563d7c;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}

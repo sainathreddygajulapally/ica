@@ -1,0 +1,59 @@
+/* Container for the homepage */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+    box-sizing: border-box;
+    background-color: #e9ecf7;
+}
+
+/* Get Started button styling */
+.get-started-button {
+    position: relative;
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: #4f52af;
+    color: #fff;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+/* Runner element inside the button */
+.runner {
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    transform: translateY(50%);
+    font-size: 1.5rem;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Runner animation on click */
+.run {
+    animation: runAcrossButton 1s ease forwards;
+    opacity: 1;
+}
+
+@keyframes runAcrossButton {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+
+/* Hover effect */
+.get-started-button:hover {
+    background-color: #3c409e;
+}
