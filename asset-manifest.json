@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61e179f8.chunk.css",
+    "main.js": "/static/js/main.f5d0f978.chunk.js",
+    "main.js.map": "/static/js/main.f5d0f978.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.ec6a9e12.js",
+    "runtime~main.js.map": "/static/js/runtime~main.ec6a9e12.js.map",
+    "static/js/2.9515a515.chunk.js": "/static/js/2.9515a515.chunk.js",
+    "static/js/2.9515a515.chunk.js.map": "/static/js/2.9515a515.chunk.js.map",
+    "static/js/3.3ef9971d.chunk.js": "/static/js/3.3ef9971d.chunk.js",
+    "static/js/3.3ef9971d.chunk.js.map": "/static/js/3.3ef9971d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.cc15a005659c2c065e31ce41a83d36da.js": "/precache-manifest.cc15a005659c2c065e31ce41a83d36da.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.61e179f8.chunk.css.map": "/static/css/main.61e179f8.chunk.css.map",
+    "static/media/IcarusTaxGroupLogo.png": "/static/media/IcarusTaxGroupLogo.66549c56.png"
+  }
+}
